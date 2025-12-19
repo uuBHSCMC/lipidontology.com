@@ -1,0 +1,10 @@
+RewriteEngine On
+
+
+RewriteCond %{HTTP_HOST} ^heatmap\.lipidontology\.com$
+RewriteRule ^/$ /index_heatmap.html [L]
+RewriteCond %{HTTP_HOST} ^pathway\.lipidontology\.com$
+RewriteRule ^/$ /index_pathway.html [L]
+RewriteCond %{HTTP_HOST} ^dataeditor\.lipidontology\.com$
+RewriteRule ^/$ /index_editor.html [L]
+
